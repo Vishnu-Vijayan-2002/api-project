@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-body{
+    background-color: rgb(124, 124, 124);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: -2px;
+}
+.card-body p
+{
+    color: white;
+}
+.card-body h5{
+    color: white;
+}
+.navbar button{
+    background-color: orange;
+    border-color: orange;
+}
+.navbar button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.form-control{
+    height: 35px;
+    margin-top: 20px;
+}
+.container-fluid a{
+    color: coral;
+    font-weight: 600;
+    font-size: 25px;
+}
+.container-fluid a:hover{
+    color: coral;
+    cursor: pointer;
+}
+.card-title{
+    width: 100%;
+    background-color: rgb(255, 112, 60);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(53, 52, 52);
+}
+.btn{
+    background-color: coral;
+}
+.movie-container{
+    display: flex;
+    justify-content: center;
+}
+.movie-container h2{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+.navbar a{
+    color: orange;
+    font-size: 35px;
+}
+footer p{
+   padding-top: 5px;
+   color: white;
+}
+.card h1{
+  display: flex;
+  margin-bottom: 10%;
+  justify-content: center;
+  padding-top: 20%;
+}
+.card img{
+  height: 100%;
+  width: 100%;
+}
+.card{
+    border-color: white;
+    
+}
+
+/* .card-body span{
+    background-color: gold;
+    color: rgb(0, 64, 255);
+    padding: 5px;
+    border-radius: 5px;
+} */
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 7%;
+}
+.img-fluid{
+    width: 600px;
+}
+@media (max-width:370px){
+    .card h1{
+        display: flex;
+        margin-bottom: 70%;
+        justify-content: center;
+        padding-top: 60%;
+      }
+}
